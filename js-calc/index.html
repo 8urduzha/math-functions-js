@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>My Website</title>
+<!--    <link rel="stylesheet" href="./style.css">-->
+<!--    <link rel="icon" href="./favicon.ico" type="image/x-icon">-->
+</head>
+<body>
+<h1>Welcome to js calculators</h1>
+<hr>
+<section>
+    <div>
+        <h2> Enter value and find out which bigger </h2>
+        <input type="text" class="value1"  placeholder="0" >
+        <input type="text" class="value2"  placeholder="0">
+        <button class="btn-count" onclick="biggerNumber()">Count</button>
+        <p class="result">Result</p>
+    </div>
+    <div>
+        <h2>Enter values of sides of rectangle, and found out area</h2>
+        <input type="text" class="sideA"  placeholder="Side a" >
+        <input type="text" class="sideB"  placeholder="Side b" >
+        <button class="btn-count" onclick="rectangleArea()">Count</button>
+        <p class="areaValue">Result: </p>
+    </div>
+    <div>
+        <h2>Enter radius of circle, and found out area of circle</h2>
+        <input type="text" class="radius"  placeholder="0" >
+        <button class="btn-count" onclick="circleArea()">Count</button>
+        <p class="circleArea">Result: </p>
+    </div>
+    <div>
+        <h2>Enter radius and height of cylinder, and found out area of him</h2>
+        <input type="text" class="cylinderHeight"  placeholder="Height" >
+        <input type="text" class="cylinderRadius"  placeholder="Radius" >
+        <button class="btn-count" onclick="cylinderArea()">Count</button>
+        <p class="cylinderArea">Result: </p>
+    </div>
+</section>
+<script src="index.js"></script>
+</body>
+</html>

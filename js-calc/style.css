@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+input {
+    width: 50px;
+}
+
+/*section {*/
+/*    display: block;*/
+/*}*/
+
+div {
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+}
+h1 {
+    text-align: center;
+}
